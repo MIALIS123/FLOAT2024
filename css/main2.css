@@ -56,14 +56,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: aqua;
+  color: red;
 }
 
 nav ul li a:active {
   color: gold;
 }
 
-article {
+article.main-left {
   display: inline;
   width: 72%;
   float: left;
@@ -71,7 +71,7 @@ article {
   background-color: lightgray;
 }
 
-aside {
+aside.main-right {
   width: 27%;
   float: right;
   background-color: gray;
