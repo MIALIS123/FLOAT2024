@@ -6,29 +6,38 @@
     <title>Maquetación Web con Float</title>
     <link rel="stylesheet" href="css/main2.css" />
   </head>
-  <body>
-    <header>
-      <h1>Mi Página Web</h1>
+  <body class="body">
+    <header class="header">
+      <div class="hero">
+        <h1>Mi Página Web</h1>
+      </div>
+      <div class="spacer"></div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
-    <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Acerca de</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-    </nav>
-    <section class="main-content">
-      <article>
-        <h2>Artículo Principal</h2>
-        <p>Contenido del artículo principal.</p>
-      </article>
-      <aside>
-        <h2>Barra Lateral</h2>
-        <p>Contenido de la barra lateral.</p>
-      </aside>
-    </section>
-    <footer>
+    <div class="clear-both"></div>
+    <div class="spacer"></div>
+    <main class="main">
+      <section class="main-content">
+        <article>
+          <h2>Artículo Principal</h2>
+          <p>Contenido del artículo principal.</p>
+        </article>
+        <aside>
+          <h2>Barra Lateral</h2>
+          <p>Contenido de la barra lateral.</p>
+        </aside>
+      </section>
+    </main>
+    <div class="clear-both"></div>
+    <div class="spacer"></div>
+    <footer class="footer">
       <p>Pie de página</p>
     </footer>
   </body>

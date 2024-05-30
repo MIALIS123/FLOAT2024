@@ -9,21 +9,32 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-  width: 100%;
-  background-color: grey;
+.body {
+  width: 98%;
+  margin: 20px auto;
+}
+
+.spacer {
+  height: 12px;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.hero {
+  background-color: #333;
   color: white;
   text-align: center;
   padding: 15px 15px;
-  margin: 15px 5px 10px 15px;
+  margin-top: 20px;
 }
 
-nav {
+.nav {
   width: 100%;
-  background-color: grey;
+  background-color: #444;
   float: left;
-  margin: 15px;
-  padding: 2px;
+  padding: 10px;
 }
 
 nav ul {
@@ -52,16 +63,12 @@ nav ul li a:active {
   color: gold;
 }
 
-section {
-  padding: 20px;
-}
 article {
   display: inline;
   width: 72%;
   float: left;
   padding: 15px;
   background-color: lightgray;
-  margin-bottom: 15px;
 }
 
 aside {
@@ -69,16 +76,13 @@ aside {
   float: right;
   background-color: gray;
   padding: 15px;
-  margin-bottom: 15px;
 }
 
-footer {
-  background-color: grey;
+.footer {
+  background-color: #333;
   color: white;
   text-align: center;
   width: 100%;
-  margin-left: 15px;
-  margin: right 15px;
   position: relative;
   align-content: center;
   padding: 15px;
