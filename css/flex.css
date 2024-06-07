@@ -1,0 +1,27 @@
+.container{border: 1px solid black;
+padding: 10px;
+margin-bottom: 20px;
+}
+
+
+.item {background-color: white;
+border: 1px solid red;
+padding: 20px;
+margin: 5px  ;
+}
+
+.flex-row {display: flex;
+}
+
+
+.flex-column {display: flex;
+    flex-direction: column;
+}
+
+.flex-justify-space-between {justify-content: space-between;
+display: flex;
+
+}
+
+
+
