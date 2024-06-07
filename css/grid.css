@@ -1,0 +1,26 @@
+.container {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.Item {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 5px;
+}
+
+.grid{
+    display: grid;
+}
+
+.grid-template{
+    /* grid-template-columns: repeat(2, 1fr); */
+         grid-template-columns: 2fr 1fr;
+}
+
+.grid-columns-rows{
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 400px 200px 100px;
+}
