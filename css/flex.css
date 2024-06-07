@@ -1,0 +1,30 @@
+.conteiner {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.item{
+    background-color: beige;
+    border: 1px solid aqua;
+    padding: 20px;
+    margin: 5px;
+}
+
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+.flex-justify-space-between {
+    justify-content: space-between;
+}
+

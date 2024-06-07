@@ -1,0 +1,23 @@
+.conteiner {
+    border: 1px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.item {
+    background-color: azure;
+    border: 1px solid gold;
+    margin: 5px;
+}
+.grid{
+display: grid;
+
+}
+.grid-template{
+    /* grid-template-columns: repeat(2,1fr); */
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-columns-rows {
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 400px 200px;
+}
