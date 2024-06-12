@@ -11,10 +11,13 @@ body {
 }
 
 .contenedor {
+display: flex;
+flex-direction: row;
 	width: 90%;
 	max-width: 1200px;
 	margin: auto;
 	padding: 40px 0;
+
 
 	
 }
@@ -24,7 +27,7 @@ body {
 	padding: 20px 0;
 }
 
-.contenedor-conciertos {
+.contenedor-conciertos {display: flex;
 	
 }
 
