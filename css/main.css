@@ -1,0 +1,22 @@
+
+header{
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+
+.imagen{
+    float: left;
+    width: 25%;
+}
+
+img{
+    width: 90%;
+}
+
+footer{
+    float: inline-end;
+    text-align: center;
+    background-color: cornflowerblue;
+    width: 100%;
+}

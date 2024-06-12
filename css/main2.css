@@ -1,0 +1,27 @@
+header{
+text-align: center;
+background-color: dimgray;
+color: white;
+}
+
+nav{
+    background-color: darkslategray;
+}
+
+nav ul li{
+ background-color: darkslategray;
+ text-decoration: none;
+ display: inline;
+ 
+}
+nav ul li a{
+    
+ color: white;
+}
+footer{
+ float: inline-end;
+ background-color: dimgray;
+ color: white;
+ width: 100%;
+ text-align: center;
+}
