@@ -7,16 +7,18 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
-	<link rel="stylesheet" href="estilosFlex.css">
+	<!-- <link rel="stylesheet" href="estilosFlex.css"> -->
 	<link rel="stylesheet" href="estilosGrid.css">
 	
 	<title>Flexbox vs CSS Grid</title>
 </head>
 <body>
 	<div class="contenedor">
-		<div class="contenedor-conciertos">
+
+		<div class="contenedor-conciertos" style="display: grid ; justify-content: center;">
+			
 			<div class="card" style="background-image: url('./img/1.jpg')">
-				<div class="textos">
+				<div class="textos" style="display:flex ; justify-content: center;">
 					<h3>Game Awards 2023</h3>
 					<p>27 de Octubre 2023</p>
 				</div>
@@ -53,7 +55,6 @@
 				</div>
 			</div>
 		</div>
-
 	
 
 		<div class="banner" style="background-image: url('./img/banner.jpg')">
