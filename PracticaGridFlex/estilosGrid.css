@@ -11,6 +11,7 @@ body {
 }
 
 .contenedor {
+
 	width: 90%;
 	max-width: 1200px;
 	margin: auto;
@@ -26,6 +27,9 @@ body {
 
 .contenedor-conciertos {
 	
+	display: grid;
+	grid-template-columns: 20% 20% 20%;
+	grid-row: 20% 20% 20%;
 }
 
 .card {
@@ -48,6 +52,7 @@ body {
 }
 
 .banner {
+	grid-template-columns: 20%;
 	border-radius: 10px;
 	text-align: center;
 	padding: 20px;
