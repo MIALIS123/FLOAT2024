@@ -1,0 +1,29 @@
+.container{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.item {
+    background-color:#f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-justify-space-between {
+    justify-content: space-between;
+
+}
