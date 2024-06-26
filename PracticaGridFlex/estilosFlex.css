@@ -15,8 +15,8 @@ body {
 	max-width: 1200px;
 	margin: auto;
 	padding: 40px 0;
-
-	
+	display: flex;
+	gap: 20px;
 }
 
 .titulo {
@@ -25,10 +25,17 @@ body {
 }
 
 .contenedor-conciertos {
+	width: 70%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 20px;
+	
 	
 }
 
 .card {
+	width: calc(33,33%-20);
 	border-radius: 10px;
 	min-height: 200px;
 	font-weight: bold;
@@ -37,17 +44,23 @@ body {
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
-
-	
 }
 
 .card .textos {
 	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	height: 100% ;
 	
 	
 }
 
 .banner {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 	border-radius: 10px;
 	text-align: center;
 	padding: 20px;
